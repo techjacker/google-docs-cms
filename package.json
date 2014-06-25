@@ -1,0 +1,42 @@
+{
+  "name": "google-docs-cms",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Create a JSON payload of data from a google spreadsheet that includes all tabs' data",
+  "keywords": [
+    "google docs",
+    "google",
+    "cms"
+  ],
+  "author": {
+    "name": "Andrew Griffiths",
+    "email": "mail@andrewgriffithsonline.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:techjacker/google-docs-cms.git"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "main": "lib/main.js",
+  "bin": {
+    "google-docs-cms": "./bin/google-docs-cms"
+  },
+  "scripts": {
+    "test": "make test",
+    "dev": "nodemon lib"
+  },
+  "dependencies": {
+    "bluebird": "^2.1.3",
+    "tabletop": "^1.3.5",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "bud": "^1.0.4",
+    "glob": "~3.2.6",
+    "mocha": "~1.17.1",
+    "rewire": "^2.0.1",
+    "should": "~3.1.3"
+  }
+}

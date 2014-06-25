@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+
+/*
+    USAGE
+
+        google-docs-cms spreadsheet-id path-to-output-file.json
+*/
+
+// deps
+var fs = require('fs');
+var clc = require('cli-color');
+
+// parse args
+var args = process.argv.slice(2);
+var spreadSheetId = args[0];
+var outputFilePath = args[1];
+
+var main = require('./../lib/main.js');
+// var localCLI = path.join(process.cwd(), './node_modules/bud/lib/cli.js');
+
+main({
+  id: spreadSheetId,
+  outPath: outputFilePath
+}).then(function (data) {
+
+  clc.green((outputFilePath) ? "[OK]: spreadsheet downloaded " + 'and written to ' + outputFilePath : JSON.stringify(data));
+
+}).error(function (err) {
+
+  console.error(clc.red("[FAIL]: " + err.msg));
+
+});

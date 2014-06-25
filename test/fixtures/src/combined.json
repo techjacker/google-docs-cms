@@ -1,0 +1,162 @@
+{
+  "title": "Andrew Griffiths",
+  "sections": "home, biography, projects, clients, achievements, contact",
+  "showcase": "3, 2, 0",
+  "icons": [
+    {
+      "name": "email",
+      "link": "mailto:mail@andrewgriffithsonline.com",
+      "photo_url": "img/img_placeholder.jpg"
+    },
+    {
+      "name": "twitter",
+      "link": "http://twitter.com/techjacker",
+      "photo_url": "img/img_placeholder2.jpg"
+    }
+  ],
+  "biography": {
+    "body": "Lorem ipsum Ut nostrud aliqua ad in enim sed qui culpa enim minim minim id consectetur sed dolore nulla aute ex amet id deserunt eiusmod deserunt nisi quis nulla id elit consectetur.\n\nLorem ipsum Sunt ut exercitation sed sunt ea in non velit exercitation aliquip.\n\nLorem ipsum Excepteur ut eu est id consequat veniam qui sit anim dolore.",
+    "photo_url": "img/img_placeholder_portrait.jpg",
+    "attachment_text": "download CV",
+    "attachment_url": "docs/resume.pdf",
+    "attachment_after": "(100kb pdf)"
+  },
+  "projects": [
+    {
+      "client": "Samsung",
+      "project": "Project A",
+      "release": "08/2012",
+      "side_heading": "My role in this project",
+      "side_bullets": ["ate lots of donuts", "drank lots of tea", "burped"],
+      "description": "Lorem ipsum Ea aliqua est dolor dolor commodo veniam nulla sit do voluptate in amet ut nostrud officia cupidatat ut esse Excepteur.",
+      "description_sub": "Launch Project",
+      "description_sub_link": "http://themummyofmulberryavenue.com",
+      "photo_url": "img/img_placeholder.jpg, img/img_placeholder_2.jpg, img/img_placeholder_3.jpg"
+    },
+    {
+      "client": "Samsung",
+      "project": "Project A",
+      "release": "08/2012",
+      "side_heading": "My role in this project",
+      "side_bullets": ["ate lots of donuts", "drank lots of tea", "burped"],
+      "description": "Lorem ipsum Exercitation occaecat dolore laborum eiusmod Excepteur ullamco adipisicing enim esse ut sit Ut id id velit dolore in ut id pariatur aliqua reprehenderit aliqua occaecat ut nostrud pariatur exercitation esse.",
+      "photo_url": "img/img_placeholder.jpg, img/img_placeholder_2.jpg, img/img_placeholder_3.jpg"
+    },
+    {
+      "client": "Samsung",
+      "project": "Project A",
+      "release": "08/2012",
+      "side_heading": "My role in this project",
+      "side_bullets": ["ate lots of donuts", "drank lots of tea", "burped"],
+      "description": "Lorem ipsum Nulla in esse ex quis pariatur non incididunt pariatur velit et adipisicing sint in in qui proident culpa esse fugiat qui anim ullamco.",
+      "description_sub": "Launch Project",
+      "description_sub_link": "http://themummyofmulberryavenue.com",
+      "photo_url": "img/img_placeholder.jpg, img/img_placeholder_2.jpg, img/img_placeholder_3.jpg"
+    },
+    {
+      "client": "Samsung",
+      "project": "Project A",
+      "release": "08/2012",
+      "side_heading": "My role in this project",
+      "side_bullets": ["ate lots of donuts", "drank lots of tea", "burped"],
+      "description": "Lorem ipsum Ea in consectetur non laboris officia eiusmod aliqua eiusmod cillum in ad incididunt anim voluptate magna proident dolore ut culpa tempor velit in dolore veniam dolore anim Excepteur aliqua voluptate in dolor proident do minim pariatur.",
+      "photo_url": "img/img_placeholder.jpg, img/img_placeholder_2.jpg, img/img_placeholder_3.jpg"
+    },
+    {
+      "client": "Samsung",
+      "project": "Project A",
+      "release": "08/2012",
+      "side_heading": "My role in this project",
+      "side_bullets": ["ate lots of donuts", "drank lots of tea", "burped"],
+      "description": "Lorem ipsum Enim pariatur cillum laborum esse in ea cupidatat quis ut do commodo sint veniam sed dolor officia officia velit sed sit occaecat minim do cupidatat laborum in qui nisi ex ullamco proident cupidatat.",
+      "photo_url": "img/img_placeholder.jpg, img/img_placeholder_2.jpg, img/img_placeholder_3.jpg"
+    },
+    {
+      "client": "Samsung",
+      "project": "Project A",
+      "release": "08/2012",
+      "side_heading": "My role in this project",
+      "side_bullets": ["ate lots of donuts", "drank lots of tea", "burped"],
+      "description": "Lorem ipsum Consectetur eiusmod ex amet minim ad fugiat esse mollit id velit nisi ut deserunt eiusmod proident labore mollit do consequat minim minim.",
+      "photo_url": "img/img_placeholder.jpg, img/img_placeholder_2.jpg, img/img_placeholder_3.jpg"
+    },
+    {
+      "client": "Samsung",
+      "project": "Project A",
+      "release": "08/2012",
+      "side_heading": "My role in this project",
+      "side_bullets": ["ate lots of donuts", "drank lots of tea", "burped"],
+      "description": "Lorem ipsum Consequat veniam voluptate culpa laborum quis non elit est eu nisi magna quis esse reprehenderit aliquip mollit laboris nisi non elit sit proident id aute sed quis proident est adipisicing.",
+      "photo_url": "img/img_placeholder.jpg, img/img_placeholder_2.jpg, img/img_placeholder_3.jpg"
+    },
+    {
+      "client": "Samsung",
+      "project": "Project A",
+      "release": "08/2012",
+      "side_heading": "My role in this project",
+      "side_bullets": ["ate lots of donuts", "drank lots of tea", "burped"],
+      "description": "Lorem ipsum Enim dolore eu mollit sint nostrud ea aute in dolore enim voluptate voluptate dolore dolore ut in commodo nulla tempor fugiat ut aliqua sit Excepteur deserunt non aute est aute laboris.",
+      "photo_url": "img/img_placeholder.jpg, img/img_placeholder_2.jpg, img/img_placeholder_3.jpg"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Samsung",
+      "photo_url": "img/img_placeholder.jpg"
+    },
+    {
+      "name": "Samsung",
+      "photo_url": "img/img_placeholder.jpg"
+    },
+    {
+      "name": "Samsung",
+      "photo_url": "img/img_placeholder.jpg"
+    },
+    {
+      "name": "Samsung",
+      "photo_url": "img/img_placeholder.jpg"
+    },
+    {
+      "name": "Samsung",
+      "photo_url": "img/img_placeholder.jpg"
+    },
+    {
+      "name": "Samsung",
+      "photo_url": "img/img_placeholder.jpg"
+    },
+    {
+      "name": "Samsung",
+      "photo_url": "img/img_placeholder.jpg"
+    },
+    {
+      "name": "Samsung",
+      "photo_url": "img/img_placeholder.jpg"
+    }
+  ],
+  "achievements": [
+    {
+      "name": "project A",
+      "date": "08/2012",
+      "description": "Lorem ipsum Eu esse est Duis Ut sint fugiat ut laboris voluptate consectetur et ullamco esse eu nisi proident magna quis incididunt id cupidatat adipisicing reprehenderit consectetur aliquip officia in pariatur."
+    },
+    {
+      "name": "project B",
+      "date": "08/2012",
+      "description": "Lorem ipsum Eu esse est Duis Ut sint fugiat ut laboris voluptate consectetur et ullamco esse eu nisi proident magna quis incididunt id cupidatat adipisicing reprehenderit consectetur aliquip officia in pariatur."
+    },
+    {
+      "name": "project C",
+      "date": "08/2012",
+      "description": "Lorem ipsum Eu esse est Duis Ut sint fugiat ut laboris voluptate consectetur et ullamco esse eu nisi proident magna quis incididunt id cupidatat adipisicing reprehenderit consectetur aliquip officia in pariatur."
+    },
+    {
+      "name": "project D",
+      "date": "08/2012",
+      "description": "Lorem ipsum Eu esse est Duis Ut sint fugiat ut laboris voluptate consectetur et ullamco esse eu nisi proident magna quis incididunt id cupidatat adipisicing reprehenderit consectetur aliquip officia in pariatur."
+    }
+  ],
+  "contact": {
+    "heading": "Keep in touch, fill the form below",
+    "submit_text": "send message"
+  }
+}

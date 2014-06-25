@@ -1,0 +1,14 @@
+[
+  {
+    "name": "email",
+    "link": "mailto:mail@andrewgriffithsonline.com",
+    "photo_url": "img/img_placeholder.jpg",
+    "rowNumber": 1
+  },
+  {
+    "name": "twitter",
+    "link": "http://twitter.com/techjacker",
+    "photo_url": "img/img_placeholder2.jpg",
+    "rowNumber": 2
+  }
+]

@@ -1,0 +1,16 @@
+{
+    "framework": "mocha",
+    "src_files": [
+        "lib/**/*.js",
+        "lib/*.js",
+        "test/*.test.js"
+    ],
+    "launchers": {
+        "Node": {
+            "command": "npm test",
+            "protocol": "tap"
+        }
+    },
+    "launch_in_dev": [ "Node"],
+    "launch_in_ci": [ "Node" ]
+}
