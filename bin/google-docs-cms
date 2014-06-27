@@ -3,7 +3,11 @@
 /*
     USAGE
 
-        google-docs-cms spreadsheet-id path-to-output-file.json
+      -> echo data to STDOUT
+      google-docs-cms spreadsheet-id
+
+      -> write data to file
+      google-docs-cms spreadsheet-id path-to-output-file.json
 */
 
 // deps
@@ -15,8 +19,8 @@ var args = process.argv.slice(2);
 var spreadSheetId = args[0];
 var outputFilePath = args[1];
 
+// local lib
 var main = require('./../lib/main.js');
-// var localCLI = path.join(process.cwd(), './node_modules/bud/lib/cli.js');
 
 main({
   id: spreadSheetId,
