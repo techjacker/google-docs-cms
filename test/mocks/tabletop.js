@@ -8,7 +8,7 @@ tableTop.init = function (options) {
 };
 
 tableTop.sheets = function (tabName) {
-  return require('./../fixtures/src/tabs/' + tabName + '.json');
+  return {elements: require('./../fixtures/src/tabs/' + tabName + '.json')};
 };
 
 tableTop.model_names = indexManifest.tabs;

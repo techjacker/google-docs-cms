@@ -24,6 +24,9 @@ describe('main', function () {
   before(function(done) {
     glob(__dirname + '/fixtures/src/tabs/*', function (err, arrFileNames) {
       arrTabsJson = arrFileNames.map(require);
+      arrTabsJson = arrFileNames.map(function(name) {
+        return {elements: require(name)};
+      });
       done();
     })
   });

@@ -4,6 +4,7 @@ lint:
 	@./node_modules/.bin/jshint lib
 
 test: clean node_modules
+	@mkdir -p test/fixtures/tmp
 	@NODE_ENV=test ./node_modules/.bin/mocha --reporter tap --timeout 2000 test/*.test.js
 
 node_modules: package.json
