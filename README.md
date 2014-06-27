@@ -19,6 +19,10 @@ npm install -g google-docs-cms
 ### CLI
 
 ```Shell
+# print data to STDOUT
+google-docs-cms 'spreadsheet-id'
+
+# include second argument if want to write data to a file
 google-docs-cms 'spreadsheet-id' 'path-to-write-data.json'
 ```
 
