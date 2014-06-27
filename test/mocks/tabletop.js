@@ -1,10 +1,9 @@
 var indexManifest = require('./../fixtures/src/index.json'); // ["icons","biography","projects","clients","achievements","contact"]
-var mainSheet = require('./../fixtures/src/main-sheet.json'); // ["icons","biography","projects","clients","achievements","contact"]
 
 var tableTop = {};
 
 tableTop.init = function (options) {
-  options.callback(mainSheet, tableTop);
+  options.callback({}, tableTop);
 };
 
 tableTop.sheets = function (tabName) {

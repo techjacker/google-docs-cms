@@ -23,7 +23,7 @@ main({
   outPath: outputFilePath
 }).then(function (data) {
 
-  clc.green((outputFilePath) ? "[OK]: spreadsheet downloaded " + 'and written to ' + outputFilePath : JSON.stringify(data));
+  console.log((outputFilePath) ? clc.green("[OK]: spreadsheet downloaded " + 'and written to ' + outputFilePath) : JSON.stringify(data));
 
 }).error(function (err) {
 

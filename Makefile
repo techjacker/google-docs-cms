@@ -12,6 +12,8 @@ node_modules: package.json
 
 clean:
 	@rm -f *.log*
+	@rm -f expected.json
+	@rm -f res.json
 	@rm -rf test/fixtures/tmp/*
 
 .PHONY: clean test lint
