@@ -1,6 +1,6 @@
 {
   "name": "google-docs-cms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "Create a JSON payload of data from a google spreadsheet that includes all tabs' data",
   "keywords": [
