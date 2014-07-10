@@ -29,10 +29,10 @@ var googleDocsCms = require('google-docs-cms');
 
 googleDocsCms({
   id: 'your-google-spreadsheet-id',
-  outPath: path.join(where', 'to', 'write', 'data')
+  outPath: path.join('where', 'to', 'write', 'data')
 }, function(err, res) {
   console.log(res); // {tabNameOne: [{...}], tabNameTwo: [{...}]}
-  console.log(require(path.join(where', 'to', 'write', 'data'))); // {tabNameOne: [{...}], tabNameTwo: [{...}]}
+  console.log(require(path.join('where', 'to', 'write', 'data'))); // {tabNameOne: [{...}], tabNameTwo: [{...}]}
 });
 
 // also has a promise API
